@@ -1,0 +1,58 @@
+2026-01-09 15:07:47,203 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:07:47,483 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:07:47,483 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:07:48,229 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:07:48,229 | INFO | TradingBot.Orders | Placing MARKET order | Symbol=BTCUSDT | Side=BUY | Qty=0.01
+2026-01-09 15:07:48,450 | INFO | TradingBot.Orders | Order API response received
+2026-01-09 15:07:48,450 | INFO | TradingBot | Order placed successfully | OrderID=None
+2026-01-09 15:14:26,392 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:14:26,669 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:14:26,670 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:14:27,349 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:14:27,349 | INFO | TradingBot.Orders | Placing MARKET order | Symbol=BTCUSDT | Side=BUY | Qty=0.01
+2026-01-09 15:14:27,555 | INFO | TradingBot | Order placed | Type=None | OrderID=None
+2026-01-09 15:14:40,311 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:14:40,548 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:14:40,548 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:14:41,188 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:14:41,188 | INFO | TradingBot.Orders | Placing LIMIT order | Symbol=BTCUSDT | Side=BUY | Qty=0.01 | Price=30000.0
+2026-01-09 15:14:41,387 | INFO | TradingBot | Order placed | Type=None | OrderID=None
+2026-01-09 15:20:04,181 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:20:04,448 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:20:04,449 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:20:05,089 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:20:05,288 | INFO | TradingBot | Order placed | Type=None | OrderID=None | Status=None
+2026-01-09 15:20:05,289 | ERROR | TradingBot | Order execution failed
+Traceback (most recent call last):
+  File "C:\Users\ankur\Desktop\tradingbot\main.py", line 65, in main
+    if order["orderId"]:
+       ~~~~~^^^^^^^^^^^
+KeyError: 'orderId'
+2026-01-09 15:25:43,924 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:25:44,228 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:25:44,229 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:25:45,168 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:25:45,169 | INFO | TradingBot.Orders | Placing MARKET order | Symbol=BTCUSDT | Side=BUY | Qty=0.01
+2026-01-09 15:25:45,369 | INFO | TradingBot.Orders | MARKET order API response received
+2026-01-09 15:25:45,370 | INFO | TradingBot | Order placed | Type=None | OrderID=None | ClientOrderID=None | Status=None
+2026-01-09 15:25:45,370 | WARNING | TradingBot | Order placed but no orderId or clientOrderId returned (normal for some MARKET orders)
+2026-01-09 15:33:51,347 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:33:51,929 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:33:51,930 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:33:52,528 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:33:52,529 | INFO | TradingBot.Orders | Placing LIMIT order | Symbol=BTCUSDT | Side=BUY | Qty=0.01 | Price=30000.0
+2026-01-09 15:33:52,728 | INFO | TradingBot.Orders | LIMIT order response: {}
+2026-01-09 15:33:52,729 | INFO | TradingBot | Order request sent successfully
+2026-01-09 15:34:07,014 | ERROR | TradingBot | Input validation failed: LIMIT orders require --price
+2026-01-09 15:34:15,632 | ERROR | TradingBot | Input validation failed: Quantity must be greater than 0
+2026-01-09 15:34:22,989 | INFO | TradingBot | Starting Trading Bot
+2026-01-09 15:34:23,394 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:34:23,395 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:34:23,986 | INFO | TradingBot | Connected to Binance Futures Testnet
+2026-01-09 15:34:23,986 | INFO | TradingBot.Orders | Placing MARKET order | Symbol=BTCUSDT | Side=SELL | Qty=0.01
+2026-01-09 15:34:24,215 | INFO | TradingBot.Orders | MARKET order response: {}
+2026-01-09 15:34:24,215 | INFO | TradingBot | Order request sent successfully
+2026-01-09 15:40:52,715 | INFO | TradingBot.Client | Using Binance Futures Testnet
+2026-01-09 15:40:52,728 | INFO | TradingBot.Client | Fetching futures account info
+2026-01-09 15:40:53,512 | INFO | TradingBot.Orders | Placing MARKET order | Symbol=BTCUSDT | Side=SELL | Qty=0.01
+2026-01-09 15:40:54,254 | INFO | TradingBot.Orders | MARKET order response: {}
